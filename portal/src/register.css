@@ -1,0 +1,200 @@
+/* //register.css */
+#alr{
+    text-align: right;
+    margin-right: 70px;
+    color:black;
+}
+
+#heading{
+    text-align :center;
+    margin-top: -40px;
+    font-family:'Franklin Gothic Medium';
+    color:#00246B;
+    font-size: 40px;
+}
+
+.container {
+    padding: 35px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(23, 0, 173, 0.781);
+    height:528px;
+    width: 450px; 
+    text-align:center;
+    margin-left:2%;
+    margin-top:0%;
+    background:#67A3D9;
+}
+
+.imgcount{
+    display:flex;
+    justify-content: left;
+    flex-direction:row;
+}
+
+#img-img{
+    /* height: 598px;
+    width: 550px; */
+    height:290px;
+    width:410px;
+    margin-top:90px;
+    margin-left:45px;
+    margin-bottom:120px;
+    border-radius: 900px;
+}
+
+form{
+    display:flex;
+    flex-direction: column;
+    color:#00246B;
+}
+
+label{
+    color:black;
+    margin-top:0px;
+    margin-left: -380px;
+    font-size:16px;
+}
+
+input{
+    width: 250px;
+    height: 4px;
+    margin-left: 50px;
+    margin-bottom:10px;
+    border-radius: 3px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="Date"],
+input[type="tel"]{
+    height: 20px; 
+    padding: 10px;
+    margin-top:-30px;
+    font-size: 15px;
+    box-sizing:border-box; 
+}
+
+.fname{
+    margin-right:10px;
+}
+
+.finalbutton{
+    height:40px;
+    font-size: 17px;
+    width: 140px;
+    margin-left: 150px;
+    margin-top:-14px;
+}
+
+.divfirstName,
+.divemail,
+.divpass,
+.divtel,
+.divdate
+{
+    display:flex;
+    flex-direction: column;
+}
+
+.divfirstName{
+    margin-left:20px;
+}
+
+#fname{
+    margin-top:-25px;
+    margin-left:120px;
+    height:30px;
+}
+
+.divemail{
+    margin-left:-20px;
+}
+
+#email{
+    margin-top:-25px;
+    margin-left:160px;
+    height:30px;
+}
+
+.divpass{
+    margin-left:10px;
+}
+
+#pawd{
+    margin-left:130px;
+    margin-top:-24px;
+    height:30px;
+}
+
+.divtel{
+    margin-left:10px;
+}
+
+#mobile{
+    margin-left:130px;
+    margin-top:-26px;
+}
+
+.divdate{
+    margin-left:33px;
+}
+
+#dob{
+    margin-left:108px;
+    height:30px;
+}
+
+.divnationality{
+    margin-top: 30px;
+    display:flex;
+    margin-left:83%;
+}
+
+#nationality{
+    margin-top:12px;
+    width:150px;
+    margin-left:88%;
+    border-radius:10px;
+    height:30px;
+    text-align:center;
+} 
+
+.divgender{
+    margin-top:7px;
+    margin-left:88%;
+    display:flex;
+    flex-direction: row;
+    height:30px;
+    width:150px;
+}
+
+#gender {
+    border-radius: 10px;
+    width: 150px;
+    text-align:center; 
+    margin-left:50%;
+}
+
+.divpwd{
+    margin-left:20px;
+}
+
+
+#pwd{
+    margin-left:130px;
+    height:30px;
+    padding:5px;
+}
+
+
+#tac input[type="checkbox"] {
+    margin-top:-70px;
+    margin-left:30px; 
+    transform: scale(0.5);
+}
+
+#agree{
+    margin-top:-45px;
+    margin-left:16px;
+}

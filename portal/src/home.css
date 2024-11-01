@@ -1,0 +1,193 @@
+body{
+    /* background-color:#00CED1; */
+    background-color:#CADCFC;
+}
+
+.btnlog{
+    margin-left:60%;
+    margin-top: -70px;
+}
+
+.btnreg{
+    margin-top:-40px;
+    margin-left: 65%; 
+}
+
+button{
+    border-radius: 40px;
+    font-size:15px;
+    padding:2px 2px;
+    color:white;
+    transition: background-color 0.3s ease;
+    cursor:pointer;
+    font:bold;
+    background-color: #00246B;
+    border:none;
+}
+
+#hlog{
+    height:30px;
+    width:93px;
+    margin-top:35px;
+    margin-left :56%;
+}
+
+#hreg{
+    height:30px;
+    width:85px;
+    margin-top:5px;
+    margin-left:73%;
+}
+
+button:hover {
+    background-color: #00246B;
+    color:white;
+}
+
+.imgonly{
+    margin-top:40px;
+    display: flex;
+    align-items: center;
+    font-family: Calibri;
+    height: 40px;
+}
+
+#workfolio{
+    color:black;
+    font-size:28px;
+}
+
+img{
+    height: 38px;
+    width: 38px;
+    top:80;
+    color:#ECA427;
+    margin-left: 10px;
+}
+
+h2{
+    top: 50px;
+    text-align: left;
+    margin-left: 10px;
+    font-size: 30px;
+    color:white;
+}
+
+.quotecontent{
+    margin-top:100px;
+    margin-left:60px;
+    margin-right:20px;
+}
+
+#quote{
+    font-size: 60px;
+    font-family:perpetua;
+    /* color:#E0FFFF; */
+    color: #00246B;
+    text-align:center;
+}
+
+.rightcontent{
+    color:black;
+    margin-top:20px;
+    margin-left: 320px;
+    margin-right: 170px;
+    font-size:medium;
+    font-style:bold;
+    display:flex;
+}
+
+.getstarted{
+    margin-top:30px;
+    margin-left:40%;
+}
+
+#get {
+    background-color: #00246B;
+    color:#CADCFC;
+    font-family:Oblique;
+    font-size:22px;
+    max-width: 310px; 
+    width: 300%; 
+}
+
+.footer{
+    margin-top:60px;
+    height: 120px;
+    background-color:black;
+}
+
+.copyright{
+    margin-left:20px;
+}
+
+#twitter{
+    fill:#1DA1F2;
+    margin-left:10px;
+}
+
+#fb{
+    margin-left:15px;
+    fill:white;
+    color:blue;
+}
+
+#linked{
+    margin-left:15px;
+    fill: #0072b1;
+}
+
+.company{
+    margin-left:40%;
+    margin-top:-70px;
+}
+.aboutus {
+    margin-left: 30%;
+    margin-top: -3.9%;
+}
+
+#btnabout {
+    width: 138px;
+    background-color: #00246B;
+    color:white;
+    transition: background-color 0.3s;
+}
+
+#btnabout:hover {
+    background-color: white;
+    color:black; 
+}
+
+.contactus {
+    margin-left: 45%;
+    margin-top: -4.9%;
+}
+
+#btncontact {
+    width: 140px;
+    background-color: #00246B;
+    color: white;
+    transition: background-color 0.3s; 
+}
+
+#btncontact:hover {
+    background-color: white; 
+    color:black;
+}
+
+.terms {
+    margin-left: 60%;
+    margin-top: -4.8%;
+}
+
+#btnterms {
+    width: 140px;
+    background-color: #00246B;
+    color:white;
+    transition: background-color 0.3s; 
+}
+
+#btnterms:hover {
+    background-color: white; 
+    color:black;
+}
